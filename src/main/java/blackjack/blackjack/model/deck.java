@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class deck {
+public class Deck{
     List<String> cards;
 
-    public deck() {
+    public Deck() {
         String[] suits = {"H", "S", "D", "C"};
         String[] ranks = {"A", "2", "3", "4", "5", "6", "7", "8", "9", "T", "J", "Q", "K"};
 

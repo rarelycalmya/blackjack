@@ -1,5 +1,5 @@
 package blackjack.blackjack.model;
 
-public class user {
+public class User {
     
 }
