@@ -22,4 +22,12 @@ public class Deck{
     public void shuffle() {
         Collections.shuffle(cards);
     }
+
+    public String drawCard() {
+        if (!cards.isEmpty()) {
+            return cards.remove(0);
+        } else {
+            throw new IllegalStateException("Deck is empty");
+        }
+    }
 }
